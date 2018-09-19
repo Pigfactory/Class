@@ -1,0 +1,27 @@
+[ Playground ]
+
+command + ,
+환경설정 -> KeyBindings -> KeyBindingSet 생성
+[실행 단축키 지정] Execute Playground -> option 3
+
+좌측 하단 > 버튼 누르면 모드 변경 가능 : Manually Run <-> Automatically Run
+
+command 0 : 좌측 Navigator 켜기 보기
+
+Editor : ShowRawMarkup <-> ShowRenderedMarkup (보기 모드 전환.. 단축키로 변경 가능)
+
+주석 달기 : 
+해당 라인 // -> command /
+해당 함수 위에 /// -> command option /
+
+bvackquote(`) 지금알았네
+
+하나의 스코프 범위 : { ~~~ }
+
+Type Annotation보다 Type Inference 선호
+	-> 코드의 양 줄이기 + 한눈에 들어오게 하기
+	-> 빌드 속도는 Type Annotation이 더 빠름
+
+
+
+

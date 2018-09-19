@@ -162,7 +162,8 @@ performClosure(param: ) {
   $0.count
 }
 
-performClosure() {  $0.count
+performClosure() {
+  $0.count
 } //마지막 클로저는 생략가능(trailing) 하기 때문에 생략
 
 performClosure { $0.count }
