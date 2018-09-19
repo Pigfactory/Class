@@ -1,4 +1,3 @@
-//: [Previous](@previous)
 import UIKit
 //: - - -
 //: # Polymorphism
