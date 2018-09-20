@@ -2,8 +2,78 @@
 
 import UIKit
 
+
 //=====================================================
 //Q1
+//=====================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//=====================================================
+//Q2
+//=====================================================
+
+class Square {
+    var area: Float = 0
+    var perimeter: Float = 0
+    var length: Float = 0
+    
+    func squareArea1(s: Float) -> Float {
+        area = s * s
+        print (area)
+        return area
+    }
+    
+    func squareArea2() {
+        area = length * length
+        print (area)
+    }
+}
+
+let a1 = Square()
+a1.length = 3
+a1.squareArea1(s: 4)
+a1.length
+a1.squareArea2()
+
+
+class Sphere {
+    var volume: Double = 0
+    var radius: Double = 0
+    let π: Double = Double.pi
+    
+    func SphereVolume(r: Double) -> Double {
+        volume = 4 / 3 * r * r * r * π
+        print (volume)
+        return volume
+    }
+}
+
+let b1 = Sphere()
+b1.π
+b1.SphereVolume(r: 4)
+
+
+
+//=====================================================
+//Q3
 //=====================================================
 
 class Animal {
@@ -85,7 +155,7 @@ e.fleas
 
 
 //=====================================================
-//Q2
+//Q4
 //=====================================================
 
 class DogTwo {
@@ -124,4 +194,8 @@ class Bulldog: DogTwo {
 
 let i = Bulldog()
 i.bark()
+
+
+
+
 
